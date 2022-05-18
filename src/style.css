@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    font-family: serif;
+    font-size: 45px;
+    color: white;
+    text-shadow: 6px 1px 8px black;
+}
+
+.para {
+    position: absolute;
+    bottom: 26%;
+    left: 28%;
+    color: white;
+    font-size: 28px;
+    text-shadow: 3px 1px 2px black;
+}
+
+.img1 {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    background-color: antiquewhite;
+    top: 2%;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+button {
+    width: 50%;
+    border: none;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgb(237, 217, 129);
+}
+
+.food1 {
+    position: fixed;
+    top: 40%;
+    padding-left: 5%;
+}
+
+.para1 {
+    position: fixed;
+    top: 44%;
+    padding-left: 5%;
+}
+
+.img2 {
+    width: 45%;
+    padding: 5%;
+}
+
+.info1 {
+    position: fixed;
+    top: 25%;
+    left: 2%;
+}
+
+.contact1 {
+    position: fixed;
+    top: 23%;
+    left: 2%;
+}
